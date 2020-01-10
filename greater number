@@ -1,0 +1,9 @@
+# python-programs
+print("Enter 1st number")
+a=input()
+print("Enter 2nd number")
+b=input()
+if a>b:
+print("greater number=",a)
+else :
+print("greater number=",b)
