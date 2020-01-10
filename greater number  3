@@ -1,0 +1,17 @@
+# python-programs
+print("Enter 1st number")
+a=input()
+print("Enter 2nd number")
+b=input()
+print("Enter 3rd number")
+c=input()
+if a>b:
+   if a>c:
+     print("greater number=",a)
+   else :
+     print("greater number=",c)
+else :
+   if b>c:
+     print("greater number=",b)
+   else :
+     print("greater number=",c)
