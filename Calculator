@@ -1,0 +1,26 @@
+def sum(a,b):
+    return a+b
+def dif(a,b):
+    return a-b
+def mul(a,b):
+    return a*b
+def div(a,b):
+    return a/b
+t=1
+while(t>0):
+      print("Enter two numbers ")
+      a=int(input())
+      b=int(input())
+      print("Enter operator ")
+      c=input()
+
+      if c=='+':
+          print(sum(a,b))
+      elif c=='-':
+          print(dif(a,b))
+      elif c=='*':
+          print(mul(a,b))
+      elif c=='/':
+          print(div(a,b))
+      else :
+          t=0
